@@ -1,0 +1,26 @@
+{
+  "name": "Algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jayjaybunce/Algorithms.git",
+  "author": "Janson Bunce <jayjaybunce@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "tsc && mocha",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.199",
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.8",
+    "@types/mocha": "^10.0.2",
+    "@types/sinon": "^10.0.19",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "sinon": "^16.1.0"
+  }
+}
